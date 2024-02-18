@@ -20,7 +20,7 @@ default_args = {
 dag = DAG(
     'bigquery_analysis_and_results',
     default_args=default_args,
-    description='Query BigQuery and process with Python for dashboard',
+    description='Query do BigQuery processada com Python',
     schedule_interval='0 7 * * 4',  # Toda quinta as 7h
     catchup=False,
 )
